@@ -1,0 +1,10 @@
+[Unit]
+Description=Run dumb-backup.sh weekly
+
+[Timer]
+OnCalendar=weekly
+Persistent=true
+Unit=dumb-backup.service
+
+[Install]
+WantedBy=timers.target

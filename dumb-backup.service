@@ -1,0 +1,5 @@
+[Unit]
+Description=Script for making a (dumb) weekly backup of really important files
+
+[Service]
+ExecStart=sh /path/to/dumb-backup.sh

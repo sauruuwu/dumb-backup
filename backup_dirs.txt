@@ -1,0 +1,7 @@
++ home/user/Documents
++ etc/fstab
++ etc/firewalld/**
++ etc/default/firewalld/**
++ etc/default/grub
++ etc/dnscrypt-proxy/dnscrypt-proxy.toml
+- **
